@@ -10,8 +10,6 @@ const AccordionContainer = () => {
     const [count, setCount] = useState(10);
     const size = 10;
     const [isEnd, setIsEnd] = useState(false);
-    // const [selected, setSelected] = useState(3);
-    const selected = 3;
 
     useEffect(() => {
         getData();
