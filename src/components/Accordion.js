@@ -32,7 +32,7 @@ const AccItem = styled.li`
 const Accordion = ({ id, title, body }) => {
     const { active, height, text, list, content, toggle } = useAccordion();
     return (
-        <AccItem className={`${active}`}>
+        <AccItem className={`item${id} ${active}`}>
             <button className="title" data-index={id} onClick={()=>toggle(id)} ref={list}>
                 <p>{id} {title}</p>
                 <span className="icon">{text}</span>

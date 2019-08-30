@@ -1,12 +1,12 @@
 import React from 'react';
 import GlobalStyled from "../assets/GlobalStyles";
-import AccorContainer from "../containers/AccorContainer";
+import AccordionContainer from "../containers/AccordionContainer";
 
 const App = () => {
     return (
         <>
             <GlobalStyled />
-            <AccorContainer />
+            <AccordionContainer />
         </>
     );
 };
