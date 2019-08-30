@@ -20,7 +20,7 @@ const AccordionContainer = () => {
     const getData = async () => {
         try{
             setIsLoading(true);
-            const { data : response } = await Axios.get("http://jsonplaceholder.typicode.com/posts");
+            const { data : response } = await Axios.get("https://jsonplaceholder.typicode.com/posts");
             const result = response.slice(preCount, count);
             setPreCount(preCount + size);
             setCount(count + size);
