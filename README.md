@@ -1,7 +1,7 @@
 # 리액트로 아코디언 만들어보기
 > 아코디언을 구현해보자 (Hooks)
 >
-> [사이트보기](https://seonn-accordion-react.netlify.com/)
+> [사이트보기](https://seony-accordion-react.netlify.com/){: target="_blank" }
 
 ## 개발환경
 > create-react-app
